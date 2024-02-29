@@ -63,7 +63,6 @@ def chat():
             "mime_type": image_response.headers.get('content-type'),
             "data": image_data
         },
-        "\n\nFun fact:\n",
     ]
 
     # Generate response
